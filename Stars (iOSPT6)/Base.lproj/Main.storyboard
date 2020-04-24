@@ -69,13 +69,13 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="PtX-RJ-EKt">
                                                     <rect key="frame" x="16" y="8.5" width="382" height="38.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Star Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkL-vp-ywi">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkL-vp-ywi">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Distance in Lightyears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brT-YR-DtH">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Distance in Lightyears" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="brT-YR-DtH">
                                                             <rect key="frame" x="0.0" y="21.5" width="382" height="17"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <nil key="textColor"/>
@@ -85,10 +85,9 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="PtX-RJ-EKt" firstAttribute="centerY" secondItem="7lv-g2-F0b" secondAttribute="centerY" id="02k-JD-H0a"/>
-                                                <constraint firstAttribute="trailing" secondItem="PtX-RJ-EKt" secondAttribute="trailing" constant="16" id="Nd2-D9-zhp"/>
-                                                <constraint firstItem="PtX-RJ-EKt" firstAttribute="centerY" secondItem="7lv-g2-F0b" secondAttribute="centerY" id="TIP-gN-cme"/>
-                                                <constraint firstItem="PtX-RJ-EKt" firstAttribute="leading" secondItem="7lv-g2-F0b" secondAttribute="leading" constant="16" id="z9s-Ix-xwG"/>
+                                                <constraint firstItem="PtX-RJ-EKt" firstAttribute="centerY" secondItem="7lv-g2-F0b" secondAttribute="centerY" id="DJh-TJ-AXf"/>
+                                                <constraint firstAttribute="trailing" secondItem="PtX-RJ-EKt" secondAttribute="trailing" constant="16" id="Fz1-hH-Crr"/>
+                                                <constraint firstItem="PtX-RJ-EKt" firstAttribute="leading" secondItem="7lv-g2-F0b" secondAttribute="leading" constant="16" id="ar3-1a-Vmb"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
