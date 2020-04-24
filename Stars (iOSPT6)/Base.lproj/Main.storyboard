@@ -59,7 +59,7 @@
                                 <rect key="frame" x="0.0" y="209" width="414" height="687"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="55" id="a6H-UH-o3s" customClass="StarTableViewCell" customModule="Stars__iOSPT6_" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StarCell" rowHeight="55" id="a6H-UH-o3s" customClass="StarTableViewCell" customModule="Stars__iOSPT6_" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="55"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a6H-UH-o3s" id="7lv-g2-F0b">
@@ -92,8 +92,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="distanceLabel" destination="brT-YR-DtH" id="MSs-xC-fEb"/>
-                                            <outlet property="nameLabel" destination="wkL-vp-ywi" id="yPH-FB-cOM"/>
+                                            <outlet property="distanceLabel" destination="brT-YR-DtH" id="gQ1-EY-Imp"/>
+                                            <outlet property="nameLabel" destination="wkL-vp-ywi" id="hf6-sM-9wA"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

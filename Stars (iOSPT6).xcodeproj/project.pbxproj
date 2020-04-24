@@ -13,6 +13,8 @@
 		0B96749524527A2D004A713E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B96749324527A2D004A713E /* Main.storyboard */; };
 		0B96749724527A2F004A713E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B96749624527A2F004A713E /* Assets.xcassets */; };
 		0B96749A24527A2F004A713E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B96749824527A2F004A713E /* LaunchScreen.storyboard */; };
+		0B9674A22452835A004A713E /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9674A12452835A004A713E /* Star.swift */; };
+		0B9674A4245284A7004A713E /* StarsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9674A3245284A7004A713E /* StarsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0B96749624527A2F004A713E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B96749924527A2F004A713E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B96749B24527A2F004A713E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B9674A12452835A004A713E /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		0B9674A3245284A7004A713E /* StarsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +66,27 @@
 				0B96749324527A2D004A713E /* Main.storyboard */,
 				0B96749624527A2F004A713E /* Assets.xcassets */,
 				0B96749824527A2F004A713E /* LaunchScreen.storyboard */,
+				0B9674A5245284B0004A713E /* Model */,
 				0B96749B24527A2F004A713E /* Info.plist */,
 			);
 			path = "Stars (iOSPT6)";
+			sourceTree = "<group>";
+		};
+		0B9674A5245284B0004A713E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B9674A12452835A004A713E /* Star.swift */,
+				0B9674A6245284BF004A713E /* Model Controller */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B9674A6245284BF004A713E /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0B9674A3245284A7004A713E /* StarsController.swift */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +163,8 @@
 				0B96749224527A2D004A713E /* StarsViewController.swift in Sources */,
 				0B96748E24527A2D004A713E /* AppDelegate.swift in Sources */,
 				0B96749024527A2D004A713E /* SceneDelegate.swift in Sources */,
+				0B9674A22452835A004A713E /* Star.swift in Sources */,
+				0B9674A4245284A7004A713E /* StarsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
